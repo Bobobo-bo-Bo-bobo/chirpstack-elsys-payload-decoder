@@ -5,7 +5,7 @@ After the introduction of mandatory access to external packetbroker service ([Th
 the old setup using The Things Networkstack stopped working because it doesn't allow access to external networks (and I will not route internal sensor packages to third party services, especially
 in light of GDPR law here in europe).
 
-Fortunately there is [https://chirpstack.io](Chirpstack) as a viable alternative but is uses a slightly different format for payload decoding.
+Fortunately there is [Chirpstack](https://chirpstack.io) as a viable alternative but is uses a slightly different format for payload decoding.
 
 This payload decoder is based on the [official payload decoder](https://www.elsys.se/en/elsys-payload/) provided by the vendor for other LoRaWAN server implementations.
 
