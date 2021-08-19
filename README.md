@@ -9,6 +9,8 @@ Fortunately there is [Chirpstack](https://chirpstack.io) as a viable alternative
 
 This payload decoder is based on the [official payload decoder](https://www.elsys.se/en/elsys-payload/) provided by the vendor for other LoRaWAN server implementations.
 
+The decoder is based on the original payload decoder for The Things Network found at the [vendors support page](https://www.elsys.se/en/elsys-payload/).
+
 # Using
 In the Chirpstack appllication server, select the corresponding device profile in `Device-profiles` and in the `Codec` tab, select `Custom JavaScript codec functions` as `Payload codec`
 and paste the content of `chirpstack-elsys-payload-decoder.js` into the box for payload decoders.
