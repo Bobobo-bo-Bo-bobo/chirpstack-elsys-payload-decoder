@@ -1,8 +1,9 @@
 # Preface
 Although a little more expensive as other senors, I really like the [ELSYS](https://www.elsys.se/en/) EMS/ERS sensors, especially the configuration access via NFC which simplify sensor deployment..
 
-After the mandatory access to external packetbroker service ([The Things Stack:Packet Broker](https://www.thethingsindustries.com/docs/getting-started/packet-broker/))
-the old setup using The Things Networkstack stop working because it doesn't allow access to external networks (and I will not route internal sensor packages to third party services).
+After the introduction of mandatory access to external packetbroker service ([The Things Stack:Packet Broker](https://www.thethingsindustries.com/docs/getting-started/packet-broker/))
+the old setup using The Things Networkstack stopped working because it doesn't allow access to external networks (and I will not route internal sensor packages to third party services, especially
+in light of GDPR law here in europe).
 
 Fortunately there is [https://chirpstack.io](Chirpstack) as a viable alternative but is uses a slightly different format for payload decoding.
 
