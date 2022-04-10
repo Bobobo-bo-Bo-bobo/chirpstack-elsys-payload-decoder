@@ -1,3 +1,7 @@
+# Repositories
+* Primary development repository: https://git.ypbind.de/cgit/chirpstack-elsys-payload-decoder/
+* Backup repository: https://github.com/Bobobo-bo-Bo-bobo/chirpstack-elsys-payload-decoder
+
 # Preface
 Although a little more expensive as other senors, I really like the [ELSYS](https://www.elsys.se/en/) EMS/ERS sensors, especially the configuration access via NFC which simplify sensor deployment..
 
@@ -18,6 +22,7 @@ and paste the content of `chirpstack-elsys-payload-decoder.js` into the box for 
 Although device configuration can be done by downlink message, a more convenient way is to use NFC to set values. Hence just paste the simple encoder function from `chirpstack-elsys-payload-encoder.js` into the encoder field.
 
 # License
+```
 The MIT License (MIT)
 
 Copyright © 2021 Andreas Maus <maus@ypbind.de>
@@ -36,4 +41,4 @@ INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PA
 PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
 FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
+```
